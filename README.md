@@ -1,3 +1,6 @@
+
+https://github.com/gevalinho/Social-links-profile/blob/main/Social-links-profile_frontend-code-challenge.png
+
 Social Links Profile
 This project is a frontend challenge aimed at creating a social links profile component. The challenge involved implementing a responsive design that displays social media icons with links to corresponding profiles.
 
