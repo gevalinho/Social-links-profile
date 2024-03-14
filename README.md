@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Social Links Profile
+This project is a frontend challenge aimed at creating a social links profile component. The challenge involved implementing a responsive design that displays social media icons with links to corresponding profiles.
 
-## Getting Started
+Table of Contents
+Introduction
+Features
+Installation
+Usage
+Contributing
+License
+Introduction
+The Social Links Profile component is a simple and visually appealing way to display links to various social media profiles. It utilizes HTML, CSS, and optionally JavaScript for interactivity.
 
-First, run the development server:
+Features
+Responsive design: The component adapts to different screen sizes, ensuring a seamless viewing experience across devices.
+Customizable: Easily customize the social media icons and links to suit your preferences.
+Lightweight: Minimal dependencies for easy integration into existing projects.
+Installation
+To use the Social Links Profile component, simply clone this repository to your local machine:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+bash
+Copy code
+git clone https://github.com/gevalinho/Social-links-profile.git
+Alternatively, you can download the repository as a ZIP file and extract it.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Usage
+Include the necessary HTML markup for the social links profile component:
+html
+Copy code
+<div class="social-links">
+    <!-- Insert your social media links here -->
+    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+</div>
+Customize the links by replacing # with the URLs of your social media profiles and updating the icons as needed.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Optionally, add custom styles to the .social-links class in the provided CSS file to match your project's design.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Test the component in different browsers and devices to ensure proper functionality and responsiveness.
 
-## Learn More
+Contributing
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request. Please adhere to the Contributor Covenant code of conduct.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+License
+This project is licensed under the MIT License, which means you are free to use, modify, and distribute the code for both commercial and non-commercial purposes. Refer to the LICENSE file for more information.
